@@ -1,0 +1,119 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+/* General Styling */
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif; /* Sets the font family for the entire page */
+  background-color: #f7f9fc; /* Sets the background color of the page */
+  margin: 0; /* Removes any default margin around the page */
+  padding: 0; /* Removes any default padding around the page */
+}
+
+/* Styling for all h1 headers */
+h1 {
+  color: #333; /* Sets the text color to a dark gray */
+  text-align: center; /* Centers the text horizontally */
+  margin-bottom: 20px; /* Adds space below the h1 */
+}
+
+/* Styling for paragraphs (p) */
+p {
+  color: #555; /* Sets the text color to a medium gray */
+  font-size: 16px; /* Sets the font size for paragraphs */
+  text-align: center; /* Centers the text horizontally */
+}
+
+/* Container Styling */
+div {
+  margin: 0 auto; /* Centers the div horizontally by setting the left and right margins to auto */
+  max-width: 800px; /* Sets a maximum width for the container */
+  padding: 20px; /* Adds padding inside the container */
+}
+
+/* Student Card Styling */
+.student-card {
+  background-color: #fff; /* Sets the background color of the student card to white */
+  border: 1px solid #ddd; /* Adds a light gray border around the card */
+  border-radius: 8px; /* Rounds the corners of the card */
+  padding: 20px; /* Adds padding inside the card */
+  margin-bottom: 20px; /* Adds space below the card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the card */
+}
+
+/* Styling for h1 headers inside the student card */
+.student-card h1 {
+  font-size: 20px; /* Sets the font size for the h1 inside the student card */
+  color: #2b7a78; /* Sets the text color to a teal color */
+  margin: 0 0 10px; /* Removes top margin and adds 10px bottom margin */
+}
+
+/* Styling for paragraphs inside the student card */
+.student-card p {
+  font-size: 14px; /* Sets the font size for the paragraphs inside the card */
+  color: #333; /* Sets the text color to dark gray */
+  margin: 5px 0; /* Adds vertical margin between paragraphs */
+}
+
+/* Button Styling */
+button {
+  background-color: #2b7a78; /* Sets the background color of the button to teal */
+  color: #fff; /* Sets the text color to white */
+  border: none; /* Removes any default border */
+  border-radius: 5px; /* Rounds the corners of the button */
+  padding: 10px 15px; /* Adds padding inside the button */
+  margin: 5px; /* Adds space around the button */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+  font-size: 14px; /* Sets the font size for the button text */
+  transition: background-color 0.3s ease; /* Adds a smooth transition effect for the background color */
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #3aafa9; /* Changes the background color when the button is hovered */
+}
+
+/* Disabled button styling */
+button:disabled {
+  background-color: #b0bec5; /* Sets a gray background color for disabled buttons */
+  cursor: not-allowed; /* Changes the cursor to a 'not-allowed' state when hovering over the disabled button */
+}

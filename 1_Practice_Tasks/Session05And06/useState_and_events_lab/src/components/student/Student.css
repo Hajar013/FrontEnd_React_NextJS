@@ -1,0 +1,57 @@
+/* Student Card Styling */
+.student-card {
+    background-color: #fff; /* Sets the background color of the student card to white */
+    border: 1px solid #ddd; /* Adds a light gray border around the card */
+    border-radius: 8px; /* Rounds the corners of the card */
+    padding: 20px; /* Adds padding inside the card */
+    margin-bottom: 20px; /* Adds space below the student card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the card */
+    transition: transform 0.3s ease; /* Smoothly transitions the transform property when the card is hovered */
+}
+
+/* Hover effect for the student card */
+.student-card:hover {
+    transform: scale(1.03); /* Slightly enlarges the card (scaling up by 3%) when hovered */
+}
+
+/* Styling for the h1 inside the student card */
+.student-card h1 {
+    font-size: 20px; /* Sets the font size for the h1 element */
+    color: #2b7a78; /* Sets the text color to a teal color */
+    margin-bottom: 10px; /* Adds space below the h1 element */
+}
+
+/* Styling for paragraphs inside the student card */
+.student-card p {
+    font-size: 16px; /* Sets the font size for the paragraphs */
+    color: #333; /* Sets the text color to dark gray */
+    margin: 10px 0; /* Adds vertical margin (10px top and bottom) for spacing */
+}
+
+/* Styling for specific spans inside the paragraphs */
+.student-card p span {
+    font-weight: bold; /* Makes the text inside span elements bold */
+}
+
+/* Buttons Styling */
+button {
+    background-color: #2b7a78; /* Sets the background color of the button to teal */
+    color: #fff; /* Sets the text color to white */
+    border: none; /* Removes any default border around the button */
+    border-radius: 5px; /* Rounds the corners of the button */
+    padding: 10px 15px; /* Adds padding inside the button */
+    margin: 5px; /* Adds space around the button */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+    font-size: 14px; /* Sets the font size for the button text */
+    transition: background-color 0.3s ease; /* Adds a smooth transition for the background color change */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #3aafa9; /* Changes the background color to a lighter teal when the button is hovered */
+}
+
+/* Focus styling for buttons */
+button:focus {
+    outline: none; /* Removes the outline (blue border) that appears when the button is focused (clicked or tabbed into) */
+}

@@ -1,0 +1,16 @@
+/* Styling for the course list */
+.course-list {
+    list-style-type: none; /* Removes the default bullet points from the list items */
+    padding: 0; /* Removes the default padding from the list */
+    margin: 10px 0 0; /* Adds a margin of 10px at the top and 0 at the bottom to the list */
+}
+
+/* Styling for individual list items inside the course list */
+.course-list li {
+    background-color: #def2f1; /* Sets a light teal background color for each list item */
+    padding: 8px 12px; /* Adds 8px padding at the top and bottom, and 12px padding at the left and right */
+    margin-bottom: 5px; /* Adds 5px space below each list item */
+    border-radius: 5px; /* Rounds the corners of each list item */
+    color: #555; /* Sets the text color to a medium gray */
+    font-size: 14px; /* Sets the font size to 14px */
+}
