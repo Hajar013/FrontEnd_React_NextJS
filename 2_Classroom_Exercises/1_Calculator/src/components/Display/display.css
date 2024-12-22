@@ -1,0 +1,26 @@
+.display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 70px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: rgb(108,110,131);
+  box-shadow: 0 0 10px rgba(246, 244, 244, 0.2); 
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.input {
+  font-size: 28px;
+  color: rgb(161,223,240);
+  overflow: hidden;
+
+}
+
+.result {
+  font-size: 28px;
+  color: rgb(174,211,240); 
+}
