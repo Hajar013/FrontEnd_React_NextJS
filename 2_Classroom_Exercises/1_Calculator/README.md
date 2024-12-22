@@ -2,6 +2,8 @@
 
 **Deployed Application**: [Calculator on Netlify](https://guileless-kelpie-f74613.netlify.app/)  
 
+![demo calculater](https://github.com/user-attachments/assets/60b4a421-9e46-4b4a-bcc2-de3a2d62a0f1)
+
 ---
 
 ## **Description**
