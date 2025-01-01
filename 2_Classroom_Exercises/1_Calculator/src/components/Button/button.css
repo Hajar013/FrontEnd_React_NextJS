@@ -1,0 +1,47 @@
+.button {
+    padding: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+    outline: none; /* Prevent focus outline */
+  
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns */
+    gap: 10px;
+}
+
+.button.number {
+    background-color:rgb(115,104,226);
+    /* Blue for numbers */
+    color: white;
+}
+
+.button.operator {
+    background-color: rgb(166,133,163);
+    color: white;
+}
+
+.button.action {
+    background-color: rgb(152,222,162);
+    color: white;
+    grid-column: span 2;
+}
+
+.button.clear {
+    background-color: rgb(166,133,163);
+    color: white;
+
+}
+.button:focus,
+.button:active {
+  outline: none; 
+  box-shadow: 0 0 10px rgba(246, 244, 244, 0.2); 
+  transform: scale(0.98);
+}

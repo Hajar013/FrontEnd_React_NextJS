@@ -1,0 +1,64 @@
+/* Task 1 */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    /* for task 1 this only  ⬇️*/
+    text-align: center;
+    /* for task 1 this only ⬆️*/
+    font-family: 'Arial', sans-serif;
+    color:#3d923d;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    /* for task 1 this only  ⬇️*/
+    background-color: lightgray;
+    border: 1px solid #7dd27d;
+    /* for task 1 this only ⬆️*/  
+    padding: 15px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  li {
+    /* for task 1 this only  ⬇️*/
+    font-weight: bold;
+    color:#3d923d;
+    /* for task 1 this only ⬆️*/
+    font-size: 1.2em;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  ul:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  li:hover {
+    color: darkgreen;
+    transform: translateX(5px);
+  }
+  
+  @media(min-width: 800px) and (max-width: 900px)  {
+    ul {
+      width: 95%;
+      
+    }
+  
+  }
+  @media (max-width: 600px) {
+
+      li {
+      font-size: 1em;
+    }
+  }

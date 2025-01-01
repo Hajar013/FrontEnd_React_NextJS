@@ -1,0 +1,36 @@
+.todo-list {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #87cefa;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px 0;
+  }
+  
+  .todo-item span {
+    margin: 0 10px;
+  }
+  
+  .todo-item input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 15px;
+  }
+  
+  .todo-item .trash-icon {
+    cursor: pointer;
+    color: #dc143c;
+    transition: color 0.3s;
+  }
+  
+  .todo-item .trash-icon:hover {
+    color: #a52a2a;
+  }
+  
