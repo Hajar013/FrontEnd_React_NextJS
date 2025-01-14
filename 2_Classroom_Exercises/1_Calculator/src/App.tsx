@@ -7,6 +7,7 @@ import Button from './components/Button/button.component';
 function App() {
   const [input, setInput] = useState("");
   const [result, setResult] = useState("");
+  const [calculationDone, setCalculationDone] = useState(false); 
   const BUTTON_LIST: string[] = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "+", "-", "=", "C"];
   const CLASS_MAP: Record<string, string> = {
     "1": "number",
@@ -34,6 +35,8 @@ function App() {
         // Calculate the result
         const evalResult = evaluate(input);
         setResult(evalResult.toString());
+setCalculationDone(true);
+
       } catch {
         setResult("Error");
       }
@@ -41,9 +44,18 @@ function App() {
       // Clear the input and result
       setInput("");
       setResult("");
+      setCalculationDone(false);
+
     } else {
-      // Append the button text to the input
-      setInput(input + text);
+      if (calculationDone) {
+        // If a calculation was done, reset input and result before adding a new number
+        setInput(text);
+        setResult("");
+        setCalculationDone(false); // Reset the calculation state
+      } else {
+        // Append the button text to the input
+        setInput(input + text);
+      }
     }
   };
 
