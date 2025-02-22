@@ -24,7 +24,7 @@ const Form = (props:IProps) => {
       setError("");
 
       event.currentTarget.reset();
-      
+
     }
     else{
       setError("Task title must be at least 3 characters long.");
@@ -45,5 +45,4 @@ const Form = (props:IProps) => {
     </form>
   )
 }
-
 export default Form
